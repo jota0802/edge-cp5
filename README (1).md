@@ -1,5 +1,5 @@
 
-# **Challenge Mahindra Edge-Computing**
+# **CP5 Edge-Computing**
 
 Este projeto exemplifica uma solução de Edge Computing, onde um **ESP32** simulado no **Wokwi** coleta informações de **temperatura** e **umidade** e envia esses dados para uma plataforma **IoT** integrada ao **FIWARE**. As variáveis são gerenciadas pelo **Postman**, enquanto o projeto é hospedado em uma **VM no Azure**. Além disso, utilizamos **Docker** para facilitar o gerenciamento de ambientes e **MQTT** como protocolo de comunicação para os dados.
 
@@ -49,7 +49,7 @@ O projeto tem como foco ilustrar a aplicação de Edge Computing em um ambiente 
 - Docker
 - Virtual Machine no azure
 - Wokwi
-- Postman
+- MYMQTT
 
 ### Passos de Instalação
 
@@ -70,14 +70,14 @@ O projeto tem como foco ilustrar a aplicação de Edge Computing em um ambiente 
 4. **Configurar o Wokwi**:
    Acesse o [Wokwi](https://wokwi.com/projects/410502656857220097) e configure o ESP32 para simular os sensores de temperatura e umidade.
 
-5. **Configurar o Postman**:
+5. **Configurar o MyMQTT**:
    Importe o Fiware descompilado no Postman e configure as variáveis de ambiente.
 
 ## Como Usar
 
 1. Inicie a simulação no **Wokwi** para coletar dados de temperatura e umidade.
 2. O **ESP32** enviará os dados via **MQTT** para o **FIWARE**.
-3. Abra o **Postman** para visualizar e manipular os dados recebidos.
+3. Abra o **MYMQTT** para visualizar e manipular os dados recebidos.
 4. Ligue a VM configurada no **Azure**, e todos os componentes podem ser gerenciados pelo **Docker**.
 
 ## Tecnologias Utilizadas
@@ -90,12 +90,6 @@ O projeto tem como foco ilustrar a aplicação de Edge Computing em um ambiente 
 - **Docker**: Containerização e gestão de ambientes.
 - **JavaScript**: Lógica de backend.
 - **Node.js**: Execução de JavaScript no servidor.
-
-## Demonstração em Vídeo
-
-Para uma explicação visual do projeto e seu funcionamento, assista ao vídeo abaixo:
-
-[![Demonstração do Projeto](https://img.youtube.com/vi/MWhlSmGXl88/0.jpg)](https://youtu.be/MWhlSmGXl88)
 
 ## Desenvolvedores
 
