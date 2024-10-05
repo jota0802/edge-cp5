@@ -46,7 +46,6 @@ O projeto tem como foco ilustrar a aplicação de Edge Computing em um ambiente 
 
 ### Pré-requisitos
 
-- Docker
 - Virtual Machine no azure
 - Wokwi
 - MYMQTT
@@ -70,8 +69,8 @@ O projeto tem como foco ilustrar a aplicação de Edge Computing em um ambiente 
 4. **Configurar o Wokwi**:
    Acesse o [Wokwi](https://wokwi.com/projects/410502656857220097) e configure o ESP32 para simular os sensores de temperatura e umidade.
 
-5. **Configurar o MyMQTT**:
-   Importe o Fiware descompilado no Postman e configure as variáveis de ambiente.
+5. **Baixar o MyMQTT**:
+   Baixe o MYMQTT no seu dispositivo.
 
 ## Como Usar
 
@@ -83,13 +82,8 @@ O projeto tem como foco ilustrar a aplicação de Edge Computing em um ambiente 
 ## Tecnologias Utilizadas
 
 - **ESP32 (Wokwi)**: Simulação de hardware.
-- **FIWARE**: Plataforma para IoT e Smart Solutions.
 - **MQTT**: Protocolo de transporte leve para dispositivos IoT.
-- **Postman**: Ferramenta para API Testing.
 - **Azure**: Plataforma de cloud computing para hospedar a VM.
-- **Docker**: Containerização e gestão de ambientes.
-- **JavaScript**: Lógica de backend.
-- **Node.js**: Execução de JavaScript no servidor.
 
 ## Desenvolvedores
 
